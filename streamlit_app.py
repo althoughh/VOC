@@ -3,6 +3,11 @@ import streamlit as st
 import pandas as pd
 import collections
 
+# The URL of the raw data file on GitHub
+url = "https://raw.githubusercontent.com/althoughh/VOC/main/data.csv"
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv(url)
 
 
 def main():
